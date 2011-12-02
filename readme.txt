@@ -1,5 +1,5 @@
 === Google Identity Toolkit ===
-Contributors: google
+Contributors: easyrp
 Donate link: http://code.google.com/apis/identitytoolkit
 Tags: openid, twitter, google, yahoo, api, oauth, myspace, linkedin, windows live, login, registration, register, social api, social apis, widget, community, sharing, share, publish, publishing, share button, share widget, social widget, tweet, status update, news feed, newsfeed, social login, social sharing, social sign-on, social sign-in
 Requires at least: 2.0.2
@@ -12,6 +12,9 @@ Google Identity Toolkit (GITkit) helps relying party (RP) websites to support fe
 
 This is the GITkit plugin for WordPress 3.x to help website owners to integrate GITkit into their websites. It provides an Account Chooser widget, which allows users to login with their email address and password, and would like to replace that password with federated login. It currently supports Google mail, Hotmail, Yahoo! mail, AOL mail, and Google Apps mail but more identity providers will be added in the future.
 
+If you finished integrating this plugin with your website, please give us some feedback to improve the ease of integration. We may contact with you for any announcement related to Google Identity Toolkit Plugin in the future.
+https://docs.google.com/a/google.com/spreadsheet/viewform?hl=en_US&pli=1&formkey=dFlNUHM0Q0ROQjFPaElVSXIxU2VPM3c6MQ#gid=0
+
 == Installation ==
 
 1. Upload the "SceneChat" folder to the '/wp-content/plugins/' directory.
@@ -19,8 +22,6 @@ This is the GITkit plugin for WordPress 3.x to help website owners to integrate 
 3. Enter your SceneChat "Account ID".
 (Your SceneChat Account ID can be found in your SceneChat Welcome email.)
 
-== Frequently Asked Questions ==
-https://docs.google.com/a/google.com/spreadsheet/viewform?hl=en_US&pli=1&formkey=dFlNUHM0Q0ROQjFPaElVSXIxU2VPM3c6MQ#gid=0
 
 == Changelog ==
 
