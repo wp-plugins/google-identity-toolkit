@@ -5,7 +5,6 @@ Tags: openid, twitter, google, yahoo, api, oauth, myspace, linkedin, windows liv
 Requires at least: 2.0.2
 Tested up to: 3.2.1
 Stable tag: 1.0
-Author: easyrp
 
 
 == Description ==
