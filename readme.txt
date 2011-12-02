@@ -6,7 +6,6 @@ Requires at least: 2.0.2
 Tested up to: 3.2.1
 Stable tag: 1.0
 
-Google Identity Toolkit (GITkit) helps relying party (RP) websites to support federated login easily (http://code.google.com/apis/identitytoolkit).
 
 == Description ==
 Google Identity Toolkit (GITkit) helps relying party (RP) websites to support federated login easily (http://code.google.com/apis/identitytoolkit).
