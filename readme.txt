@@ -6,9 +6,9 @@ Requires at least: 2.0.2
 Tested up to: 3.2.1
 Stable tag: 1.0
 
+Google Identity Toolkit (GITkit) helps relying party (RP) websites to support federated login easily (http://code.google.com/apis/identitytoolkit).
 
 == Description ==
-Google Identity Toolkit (GITkit) helps relying party (RP) websites to support federated login easily (http://code.google.com/apis/identitytoolkit).
 
 This is the GITkit plugin for WordPress 3.x to help website owners to integrate GITkit into their websites. It provides an Account Chooser widget, which allows users to login with their email address and password, and would like to replace that password with federated login. It currently supports Google mail, Hotmail, Yahoo! mail, AOL mail, and Google Apps mail but more identity providers will be added in the future.
 
