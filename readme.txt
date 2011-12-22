@@ -23,7 +23,7 @@ https://docs.google.com/a/google.com/spreadsheet/viewform?hl=en_US&pli=1&formkey
 == Installation ==
 1. Turn on apache mod_rewrite module in your apache config file. Otherwise, the Google Identity Toolkit plugin will not work properly.
   Enable the mod_rewrite for apache method
-   a. Open the apache config file http.conf, found:"# LoadModule rewrite_module modules / mod_rewrite.so"
+   a. Enable the apache config file http.conf, found:"# LoadModule rewrite_module modules / mod_rewrite.so"
       and Remove the front of the line "#"
    b. restart apache
 2. Unzip and copy the installation package "google-identity-toolkit.zip" to the WordPress root directory "wp-content/plugins/", Or copy the google-identity-toolkit directory to  "wp-content/plugins/".
