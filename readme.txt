@@ -15,22 +15,18 @@ This is the GITkit plugin for WordPress 3.x to help website owners to integrate 
 If you finished integrating this plugin with your website, please give us some feedback to improve the ease of integration. We may contact with you for any announcement related to Google Identity Toolkit Plugin in the future.
 https://docs.google.com/a/google.com/spreadsheet/viewform?hl=en_US&pli=1&formkey=dFlNUHM0Q0ROQjFPaElVSXIxU2VPM3c6MQ#gid=0
 
-== Installation ==
-
-1. Upload the "SceneChat" folder to the '/wp-content/plugins/' directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Enter your SceneChat "Account ID".
-(Your SceneChat Account ID can be found in your SceneChat Welcome email.)
-
-
 == Changelog ==
 
 
 = 1.0 = Initial Version.
 
 == Installation ==
-1. Turn on apache mod_rewrite module in your apache config file. Otherwise, the Google Identity Toolkit plugin will not work properly 
-2. Unzip and copy the installation package "git" to the WordPress root directory "wp-content/plugins/".
+1. Turn on apache mod_rewrite module in your apache config file. Otherwise, the Google Identity Toolkit plugin will not work properly.
+  Enable the mod_rewrite for apache method
+   a. Open the apache config file http.conf, found:"# LoadModule rewrite_module modules / mod_rewrite.so"
+      and Remove the front of the line "#"
+   b. restart apache
+2. Unzip and copy the installation package "google-identity-toolkit.zip" to the WordPress root directory "wp-content/plugins/", Or copy the google-identity-toolkit directory to  "wp-content/plugins/".
 3. Go to "Settings/Google Identity Toolkit", enter "APIKey" which you can get from Google Developer Console (https://code.google.com/apis/identitytoolkit/v1/devconsole.html), then click the "Save Changes" button to save your configuration.
 4. Refresh your WordPress website and you will see there is a login button on the top-right of the page.
 
