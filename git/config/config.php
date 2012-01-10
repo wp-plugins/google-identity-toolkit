@@ -23,6 +23,7 @@ $gitConfig = array(
   'sessionManager' => 'WPSessionManager',
 	
   'customer_id' => 'customer_id',
-  'idpAssertionKey'=>'idpAssertion'
+  'idpAssertionKey'=>'idpAssertion',
+  'pluginName' => 'wp',
 );
 

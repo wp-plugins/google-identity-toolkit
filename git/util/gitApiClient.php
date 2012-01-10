@@ -49,6 +49,7 @@ class gitApiClient {
     $request = array();
     $request['requestUri'] = $url;
     $request['postBody'] = $postBody;
+	$request['p'] = GitContext::getConfig()->getPluginName();
 
     $response = $this->post($request);
     if (!empty($response)) {

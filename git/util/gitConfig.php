@@ -69,4 +69,12 @@ class gitConfig {
   public function getSessionManagerName() {
     return $this->get('sessionManager');
   }
+ 
+  public function getPluginName(){
+    return $this->get('pluginName');
+  }
+ 
+  public function setPluginName($value){
+    return $this->get('pluginName', $value);
+  }
 }
